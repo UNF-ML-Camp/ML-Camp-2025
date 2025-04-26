@@ -211,10 +211,14 @@ def pca_doodles(n_components: int = 2, labels: T.List[str] = None, n_samples = 5
     if n_components == 2:
         # Plot PCA
         plt.figure(figsize=(8, 8))
-        plt.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='tab10', alpha=0.5)
+        for i in range(len(labels)):
+            plt.scatter(X_pca[y == i, 0], X_pca[y == i, 1], alpha=0.5, label=labels[i])
         plt.title(f"PCA af doodles med {n_components} komponenter")
         plt.xlabel("Komponent 1")
         plt.ylabel("Komponent 2")
+        plt.legend(loc='upper right', fontsize=8)
+
+        plt.grid()
         plt.show()
     elif n_components == 3:
         # Interaktivt 3D plot
@@ -222,11 +226,16 @@ def pca_doodles(n_components: int = 2, labels: T.List[str] = None, n_samples = 5
 
         fig = plt.figure(figsize=(8, 8))
         ax = fig.add_subplot(111, projection='3d')
-        ax.scatter(X_pca[:, 0], X_pca[:, 1], X_pca[:, 2], c=y, cmap='tab10', alpha=0.5)
+        for i in range(len(labels)):
+            ax.scatter(X_pca[y == i, 0], X_pca[y == i, 1], X_pca[y == i, 2], alpha=0.5, label=labels[i])
         ax.set_title(f"PCA af doodles med {n_components} komponenter")
         ax.set_xlabel("Komponent 1")
         ax.set_ylabel("Komponent 2")
         ax.set_zlabel("Komponent 3")
+        ax.legend(loc='upper right', fontsize=8)
+
+        ax.grid()
+        plt.tight_layout()
         plt.show()
 
     else:
