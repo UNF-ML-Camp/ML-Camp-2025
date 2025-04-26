@@ -170,3 +170,64 @@ def plot_doodles(labels: T.List[str], n_rows: int = 5, title: str = None) -> Non
         title = f"{N} doodles fra Quick, Draw! dataset"
     plt.suptitle(title)
     plt.show()
+
+def pca_doodles(n_components: int = 2, labels: T.List[str] = None, n_samples = 500) -> None:
+    """
+    PCA af doodles
+    Args:
+    n_components (int): Antal komponenter
+    labels (List[str]): Liste af labels
+    """
+    if labels is None:
+        labels = ['cat', 'dog', 'car', 'tree', 'house']
+
+    # Hent doodles for hvert label
+    X = []
+    y = []
+
+    for label, name in enumerate(labels):
+        doodles = get_doodles(name, verbose = False)
+        # normaliser doodles
+        doodles = doodles / 255
+
+        # transformer til [-1, 1]
+        doodles = (doodles - 0.5) * 2
+
+        # konkatener doodles og labels
+        N_doodles = doodles.shape[0]
+        # reshape doodles til (N_doodles, 28*28)
+        X.append(doodles[:n_samples].reshape(n_samples, 28*28))
+        y.append(np.full(n_samples, label))
+
+    X = np.concatenate(X)
+    y = np.concatenate(y)
+
+    # PCA
+    from sklearn.decomposition import PCA
+
+    pca = PCA(n_components=n_components)
+    X_pca = pca.fit_transform(X)
+
+    if n_components == 2:
+        # Plot PCA
+        plt.figure(figsize=(8, 8))
+        plt.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='tab10', alpha=0.5)
+        plt.title(f"PCA af doodles med {n_components} komponenter")
+        plt.xlabel("Komponent 1")
+        plt.ylabel("Komponent 2")
+        plt.show()
+    elif n_components == 3:
+        # Interaktivt 3D plot
+        from mpl_toolkits.mplot3d import Axes3D
+
+        fig = plt.figure(figsize=(8, 8))
+        ax = fig.add_subplot(111, projection='3d')
+        ax.scatter(X_pca[:, 0], X_pca[:, 1], X_pca[:, 2], c=y, cmap='tab10', alpha=0.5)
+        ax.set_title(f"PCA af doodles med {n_components} komponenter")
+        ax.set_xlabel("Komponent 1")
+        ax.set_ylabel("Komponent 2")
+        ax.set_zlabel("Komponent 3")
+        plt.show()
+
+    else:
+        print(f"Kan ikke plotte {n_components} komponenter. Vælg 2 eller 3 komponenter.")
