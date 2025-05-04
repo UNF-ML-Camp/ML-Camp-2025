@@ -172,3 +172,6 @@ cython_debug/
 
 # Data for konkurrence
 konkurrence/data/
+
+# Model til konkurrence
+konkurrence/test_model.pt
