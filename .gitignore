@@ -173,5 +173,6 @@ cython_debug/
 # Data for konkurrence
 konkurrence/data/
 
-# Model til konkurrence
+# Model og test til konkurrence
 konkurrence/test_model.pt
+konkurrence/test.png
