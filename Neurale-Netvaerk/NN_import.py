@@ -11,6 +11,7 @@ from corner import corner
 
 # Set up device and random seeds
 device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+device = "cpu"
 seed = 42
 torch.manual_seed(seed)
 np.random.seed(seed)
@@ -158,7 +159,7 @@ def visualize_dataset(df, dataset_name, target_cols, feature_cols, max_features=
         plt.tight_layout()
         plt.show()
 
-def load_dataset(dataset_name, validation=True, visualize=False, ripeness_class="ripe"):
+def load_dataset(dataset_name, validation=True, visualize=False, ripeness_class="all"):
     """
     Load and preprocess datasets for neural network training.
     
@@ -298,15 +299,50 @@ def load_dataset(dataset_name, validation=True, visualize=False, ripeness_class=
     if validation:
         X_val_tensor = torch.tensor(X_val, dtype=torch.float32).to(device)
     X_test_tensor = torch.tensor(X_test, dtype=torch.float32).to(device)
-    train_targets_tensor = torch.tensor(train_targets, dtype=torch.float32).to(device)
-    if validation:
-        val_targets_tensor = torch.tensor(val_targets, dtype=torch.float32).to(device)
-    test_targets_tensor = torch.tensor(test_targets, dtype=torch.float32).to(device)
-    if train_targets2 is not None:
-        train_targets2_tensor = torch.tensor(train_targets2, dtype=torch.float32).to(device)
+    
+    # Handle target conversion for different task types
+    if dataset_name == "avocado" and ripeness_class == "all":
+        # One-hot encode multiclass targets
+        from torch.nn.functional import one_hot
+        num_classes = len(df['ripeness'].unique())
+        train_targets_tensor = one_hot(torch.tensor(train_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
         if validation:
-            val_targets2_tensor = torch.tensor(val_targets2, dtype=torch.float32).to(device)
-        test_targets2_tensor = torch.tensor(test_targets2, dtype=torch.float32).to(device)
+            val_targets_tensor = one_hot(torch.tensor(val_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
+        test_targets_tensor = one_hot(torch.tensor(test_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
+    elif dataset_name == "diabetes":
+        # One-hot encode multiclass targets
+        from torch.nn.functional import one_hot
+        num_classes = len(df[target].unique())
+        train_targets_tensor = one_hot(torch.tensor(train_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
+        if validation:
+            val_targets_tensor = one_hot(torch.tensor(val_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
+        test_targets_tensor = one_hot(torch.tensor(test_targets, dtype=torch.long), num_classes=num_classes).float().to(device)
+    elif dataset_name == "grades" and isinstance(target, list) and "GradeClass" in target:
+        # One-hot encode multiclass targets for GradeClass
+        from torch.nn.functional import one_hot
+        num_classes = len(df['GradeClass'].unique())
+        train_targets_tensor = torch.tensor(train_targets, dtype=torch.float32).to(device)  # GPA (continuous)
+        if validation:
+            val_targets_tensor = torch.tensor(val_targets, dtype=torch.float32).to(device)
+        test_targets_tensor = torch.tensor(test_targets, dtype=torch.float32).to(device)
+        
+        # Second target (GradeClass) as one-hot
+        if train_targets2 is not None:
+            train_targets2_tensor = one_hot(torch.tensor(train_targets2, dtype=torch.long), num_classes=num_classes).float().to(device)
+            if validation:
+                val_targets2_tensor = one_hot(torch.tensor(val_targets2, dtype=torch.long), num_classes=num_classes).float().to(device)
+            test_targets2_tensor = one_hot(torch.tensor(test_targets2, dtype=torch.long), num_classes=num_classes).float().to(device)
+    else:
+        # For regression and binary classification
+        train_targets_tensor = torch.tensor(train_targets, dtype=torch.float32).to(device)
+        if validation:
+            val_targets_tensor = torch.tensor(val_targets, dtype=torch.float32).to(device)
+        test_targets_tensor = torch.tensor(test_targets, dtype=torch.float32).to(device)
+        if train_targets2 is not None:
+            train_targets2_tensor = torch.tensor(train_targets2, dtype=torch.float32).to(device)
+            if validation:
+                val_targets2_tensor = torch.tensor(val_targets2, dtype=torch.float32).to(device)
+            test_targets2_tensor = torch.tensor(test_targets2, dtype=torch.float32).to(device)
     
     # Return data dictionary
     data_dict = {
@@ -322,6 +358,26 @@ def load_dataset(dataset_name, validation=True, visualize=False, ripeness_class=
         'feature_scaler': scaler,
         'target_scaler': target_scaler
     }
+    
+    # Add number of classes for classification tasks
+    if dataset_name == "avocado" and ripeness_class == "all":
+        data_dict['num_classes'] = len(df['ripeness'].unique())
+        data_dict['output_size'] = data_dict['num_classes']
+        data_dict['task_type'] = 'classification'
+    elif dataset_name == "diabetes":
+        data_dict['num_classes'] = len(df[target].unique())
+        data_dict['output_size'] = data_dict['num_classes']
+        data_dict['task_type'] = 'classification'
+    elif dataset_name == "avocado" and ripeness_class in ["ripe", "firm_ripe"]:
+        data_dict['num_classes'] = 1  # Binary classification
+        data_dict['output_size'] = 1
+        data_dict['task_type'] = 'classification'
+    elif dataset_name == "grades" and "GradeClass" in target:
+        data_dict['num_classes'] = len(df['GradeClass'].unique())
+        data_dict['output_size'] = data_dict['num_classes']
+        data_dict['task_type'] = 'classification'
+    else:
+        data_dict['task_type'] = 'regression'
     
     if validation:
         data_dict['X_val'] = X_val_tensor
@@ -342,7 +398,7 @@ print(f"Using device: {device}")
 
 def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_test=None,
                 task_type='regression', epochs=100, learning_rate=0.001, batch_size=32, 
-                early_stopping_patience=10, print_every=10):
+                early_stopping_patience=10, print_every=10, num_classes=None):
     """
     Train a PyTorch neural network model.
     
@@ -357,6 +413,7 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
         batch_size: Batch size for training
         early_stopping_patience: Stop training if validation doesn't improve for this many epochs
         print_every: Print progress every N epochs
+        num_classes: Number of classes for classification (1 for binary, >2 for multiclass)
     
     Returns:
         dict: Training history with losses and metrics
@@ -369,7 +426,7 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
     if task_type == 'regression':
         criterion = nn.MSELoss()
     elif task_type == 'classification':
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.BCELoss()
     else:
         raise ValueError("task_type must be 'regression' or 'classification'")
     
@@ -395,6 +452,11 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
     
     print(f"Training {task_type} model for {epochs} epochs...")
     print(f"Device: {device}")
+    if task_type == 'classification' and num_classes:
+        if num_classes == 1:
+            print("Binary classification")
+        else:
+            print(f"Multiclass classification: {num_classes} classes (one-hot encoded)")
     print("-" * 50)
     
     for epoch in range(epochs):
@@ -411,15 +473,16 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
             optimizer.zero_grad()
             outputs = model(batch_X)
             
-            # Handle output dimensions
+            # Handle output dimensions and target types
             if task_type == 'classification':
-                if outputs.dim() > 1 and outputs.size(1) == 1:
-                    outputs = outputs.squeeze(1)
-                batch_y = batch_y.long()
+                if num_classes == 1:  # Binary classification
+                    if outputs.dim() > 1 and outputs.size(1) == 1:
+                        outputs = outputs.squeeze(1)
+                batch_y = batch_y.float()
             else:  # regression
                 if outputs.dim() > 1 and outputs.size(1) == 1:
                     outputs = outputs.squeeze(1)
-            
+            print(outputs, batch_y)
             loss = criterion(outputs, batch_y)
             
             # Backward pass
@@ -430,10 +493,15 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
             
             # Store predictions for metrics
             if task_type == 'classification':
-                train_predictions.extend(torch.argmax(outputs, dim=1).cpu().numpy() if outputs.dim() > 1 else (outputs > 0.5).float().cpu().numpy())
-            else:
+                if num_classes == 1:  # Binary classification
+                    train_predictions.extend((torch.sigmoid(outputs) > 0.5).float().cpu().numpy())
+                    train_targets.extend(batch_y.cpu().numpy())
+                else:  # Multiclass classification
+                    train_predictions.extend(torch.argmax(torch.sigmoid(outputs), dim=1).cpu().numpy())
+                    train_targets.extend(torch.argmax(batch_y, dim=1).cpu().numpy())
+            else:  # regression
                 train_predictions.extend(outputs.detach().cpu().numpy())
-            train_targets.extend(batch_y.cpu().numpy())
+                train_targets.extend(batch_y.cpu().numpy())
         
         # Calculate training metrics
         train_loss /= len(train_loader)
@@ -455,24 +523,30 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
             with torch.no_grad():
                 val_outputs = model(X_val)
                 
-                # Handle output dimensions
+                # Handle output dimensions and target types
                 if task_type == 'classification':
+                    if num_classes == 1:  # Binary classification
+                        if val_outputs.dim() > 1 and val_outputs.size(1) == 1:
+                            val_outputs = val_outputs.squeeze(1)
+                    val_y_processed = y_val.float()
+                else:  # regression
                     if val_outputs.dim() > 1 and val_outputs.size(1) == 1:
                         val_outputs = val_outputs.squeeze(1)
-                    val_y_long = y_val.long()
-                else:
-                    if val_outputs.dim() > 1 and val_outputs.size(1) == 1:
-                        val_outputs = val_outputs.squeeze(1)
-                    val_y_long = y_val
+                    val_y_processed = y_val
                 
-                val_loss = criterion(val_outputs, val_y_long).item()
+                val_loss = criterion(val_outputs, val_y_processed).item()
                 
                 # Calculate validation metrics
                 if task_type == 'classification':
-                    val_predictions = torch.argmax(val_outputs, dim=1) if val_outputs.dim() > 1 else (val_outputs > 0.5).float()
-                    val_accuracy = (val_predictions == y_val).float().mean().item()
+                    if num_classes == 1:  # Binary classification
+                        val_predictions = (torch.sigmoid(val_outputs) > 0.5).float()
+                        val_accuracy = (val_predictions == y_val).float().mean().item()
+                    else:  # Multiclass classification
+                        val_predictions = torch.argmax(torch.sigmoid(val_outputs), dim=1)
+                        val_true = torch.argmax(y_val, dim=1)
+                        val_accuracy = (val_predictions == val_true).float().mean().item()
                     val_metric = val_accuracy
-                else:
+                else:  # regression
                     val_rmse = torch.sqrt(torch.mean((val_outputs - y_val)**2)).item()
                     val_metric = val_rmse
             
@@ -512,23 +586,39 @@ def train_model(model, X_train, y_train, X_val=None, y_val=None, X_test=None, y_
         with torch.no_grad():
             test_outputs = model(X_test)
             
-            # Handle output dimensions
+            # Handle output dimensions and target types
             if task_type == 'classification':
+                if num_classes == 1:  # Binary classification
+                    if test_outputs.dim() > 1 and test_outputs.size(1) == 1:
+                        test_outputs = test_outputs.squeeze(1)
+                test_y_processed = y_test.float()
+            else:  # regression
                 if test_outputs.dim() > 1 and test_outputs.size(1) == 1:
                     test_outputs = test_outputs.squeeze(1)
-                test_y_long = y_test.long()
-            else:
-                if test_outputs.dim() > 1 and test_outputs.size(1) == 1:
-                    test_outputs = test_outputs.squeeze(1)
-                test_y_long = y_test
+                test_y_processed = y_test
             
-            test_loss = criterion(test_outputs, test_y_long).item()
+            test_loss = criterion(test_outputs, test_y_processed).item()
             
             if task_type == 'classification':
-                test_predictions = torch.argmax(test_outputs, dim=1) if test_outputs.dim() > 1 else (test_outputs > 0.5).float()
-                test_accuracy = (test_predictions == y_test).float().mean().item()
+                if num_classes == 1:  # Binary classification
+                    test_predictions = (torch.sigmoid(test_outputs) > 0.5).float()
+                    test_accuracy = (test_predictions == y_test).float().mean().item()
+                else:  # Multiclass classification
+                    test_predictions = torch.argmax(torch.sigmoid(test_outputs), dim=1)
+                    test_true = torch.argmax(y_test, dim=1)
+                    test_accuracy = (test_predictions == test_true).float().mean().item()
+                    
+                    # Additional multiclass metrics
+                    from sklearn.metrics import classification_report
+                    test_pred_np = test_predictions.cpu().numpy()
+                    test_true_np = test_true.cpu().numpy()
+                    print(f"\nTest Results - Loss: {test_loss:.4f}, Accuracy: {test_accuracy:.4f}")
+                    print("\nDetailed Classification Report:")
+                    print(classification_report(test_true_np, test_pred_np))
+                    return history, model
+                
                 print(f"\nTest Results - Loss: {test_loss:.4f}, Accuracy: {test_accuracy:.4f}")
-            else:
+            else:  # regression
                 test_rmse = torch.sqrt(torch.mean((test_outputs - y_test)**2)).item()
                 print(f"\nTest Results - Loss: {test_loss:.4f}, RMSE: {test_rmse:.4f}")
     
