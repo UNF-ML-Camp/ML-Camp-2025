@@ -13,7 +13,7 @@ fi
 
 echo "Copying main folder to Google Drive"
 # Folder to exclude from copying
-excluded_files=(".gitignore" "README.md" "HER.ipynb" "LICENSE")
+excluded_files=(".gitignore" "README.md" "HER.ipynb" "LICENSE" "requirements.txt")
 #Change the year here
 destination_folder="/content/drive/MyDrive/Colab Notebooks/"$1
 # Copy folders and contents excluding the specified folder and files, without overwriting existing files
