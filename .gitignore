@@ -160,6 +160,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Visual studio
+.vscode/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
@@ -170,9 +173,10 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Data for konkurrence
-konkurrence/data/
-
 # Model og test til konkurrence
 konkurrence/test_model.pt
 konkurrence/test.png
+konkurrence/results/
+
+# Gemmes væk indtil relevant
+konkurrence/.
