@@ -1,5 +1,6 @@
 import os
 import torch
+import matplotlib.pyplot as plt
 from time import perf_counter
 from tqdm import tqdm
 from utils.options import get_hyperparameters
@@ -91,19 +92,43 @@ def train(
         val_losses_full.append(val_losses.avg)
         val_accuracies_full.append(val_accuracies.avg)
         #(f"[{epoch+1} / {model.hyperparameters.epochs} {end_time-start_time:.2f}s] Training - Loss: {sum(losses) / len(losses):3f} Accuracy: {sum(accuracies) / len(accuracies):3f} | Validation - Loss: {sum(val_losses) / len(val_losses):3f} Accuracy: {sum(val_accuracies) / len(val_accuracies):3f}")
-        epoch_loop.set_postfix({"Train_loss":losses_full, "Val_loss": val_losses_full, "Train_acc": accuracies_full, "Val_acc": val_accuracies_full})
+        epoch_loop.set_postfix({"Train_loss": f"{losses_full:.3f}", "Val_loss": f"{val_losses_full:.3f}", "Train_acc": f"{accuracies_full:.3f}", "Val_acc": f"{val_accuracies_full:.3f}", "Time_Taken": f"{end_time-start_time:.3f}"})
 
         # Model er trænet, gem vægtene
         if not os.path.exists("saved_models/"):
             os.makedirs("saved_models/")
         
-        torch.save(model.state_dict(), f"saved_models/{model.name}.pt")
+        # Note: torch.save gemmer kun vægtene, og derfor kan kun loades hvis du først definere den korrekt model class
+        # Det er fordi vægtene alene er ikke nok, da de skal blive sat til neuroner der bliver defineret i model classen
+        # I det andet hånd, torch.jit.script gemmer både skeleten og vægtene, og har ikke bruge for at definere classen 
+        # igen når den skal loades med torch.jit.load. Problemet med torch.jit.script er at den bliver ikke udviklet længere
+        # som betyder at den kan fejle med nogle nyere lage.
+
+        #torch.save(model.state_dict(), f"saved_models/{model.name}.pt")
+        scripted_model = torch.jit.script(model)
+        scripted_model.save(f'saved_models/{model.name}.pth')
         print(f"Gemt modellen fra sidste checkpoint i 'saved_models/{model.name}.pt'")
 
         if val_accuracies.avg > best_acc:
             best_acc = val_accuracies.avg
-            torch.save(model.state_dict(), f"saved_models/{model.name}_best.pt")
+            #torch.save(model.state_dict(), f"saved_models/{model.name}_best.pt")
+            scripted_model.save(f'saved_models/{model.name}_best.pth')
             print(f"Gemt modellen med bedste accuracy {best_acc} i 'saved_models/{model.name}_best.pt'")
     return {"Train_loss":losses_full, "Val_loss": val_losses_full, "Train_acc": accuracies_full, "Val_acc": val_accuracies_full}
     
-
+def plot_training_logs(train_logs):
+    Fig, ax = plt.subplots(4,1, sharex=True, figsize=(16,10))
+    ax[0].plot(range(1,len(train_logs["Train_loss"])+1), train_logs["Train_loss"])
+    ax[0].set_ylabel("Loss")
+    ax[0].set_title("Training Loss")
+    ax[1].plot(range(1,len(train_logs["Val_loss"])+1), train_logs["Val_loss"])
+    ax[1].set_ylabel("Loss")
+    ax[1].set_title("Validation Loss")
+    ax[2].plot(range(1,len(train_logs["Train_acc"])+1), train_logs["Train_acc"])
+    ax[2].set_ylabel("Accuracy")
+    ax[2].set_title("Training Accuracy")
+    ax[3].plot(range(1,len(train_logs["Val_acc"])+1), train_logs["Val_acc"])
+    ax[3].set_ylabel("Accuracy")
+    ax[3].set_title("Validation Accuracy")
+    ax[3].set_xlabel("Epoch")
+    return Fig, ax
