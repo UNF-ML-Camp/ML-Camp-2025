@@ -173,6 +173,10 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Data og modeller fra ConvNets
+ConvNets/data
+ConvNets/saved_models
+
 # Model og test til konkurrence
 konkurrence/test_model.pt
 konkurrence/test.png
