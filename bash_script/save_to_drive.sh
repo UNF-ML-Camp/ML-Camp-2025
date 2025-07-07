@@ -15,7 +15,7 @@ echo "Copying main folder to Google Drive"
 # Folder to exclude from copying
 excluded_files=(".gitignore" "README.md" "HER.ipynb" "LICENSE" "requirements.txt" ".DS_Store" ".git")
 #Change the year here
-destination_folder="/content/drive/MyDrive/Colab Notebooks/"$1
+destination_folder="/content/drive/MyDrive/Colab Notebooks/"$1"_CNN_Dev"
 # Copy folders and contents excluding the specified folder and files, without overwriting existing files
 rsync -av --exclude="bash_script" --exclude=".git" --exclude-from=<(printf "%s\n" "${excluded_files[@]}") --ignore-existing "$source_folder/" "$destination_folder/"
 
@@ -25,7 +25,7 @@ echo "Finished creating main folder"
 echo "Copying source folder to Google Drive"
 excluded_files=(".gitignore" "README.md")
 #Change the year here
-destination_folder="/content/drive/MyDrive/Colab Notebooks/"$1"/source"
+destination_folder="/content/drive/MyDrive/Colab Notebooks/"$1"_CNN_Dev/source"
 # Copy folders and contents excluding the specified folder and files
 rsync -av --exclude="bash_script" --exclude=".git" --exclude-from=<(printf "%s\n" "${excluded_files[@]}") "$source_folder/" "$destination_folder/"
 
