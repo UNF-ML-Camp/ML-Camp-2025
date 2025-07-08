@@ -1,0 +1,1001 @@
+model_name,number_engines,manufacturer,carrier_compatible,country,serial_number,country_sighted
+F-16 Falcon,1,General Dynamics,No,USA,8418,USA
+F-16 Falcon,1,General Dynamics,No,USA,2108,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,1886,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,4583,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7928,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,1678,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,1562,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,8498,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8216,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6501,Russia
+F-16 Falcon,1,General Dynamics,No,USA,8344,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9631,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,4472,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,5684,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,9047,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,5200,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6228,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,9708,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,1400,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4597,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,1492,China
+Su-57 Felon,2,Sukhoi,No,Russia,5127,China
+F-35 Lightning,1,Lockheed,Yes,USA,4852,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,2750,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,9062,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8585,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6202,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,6588,USA
+F-16 Falcon,1,General Dynamics,No,USA,6327,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,1886,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,9593,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,3552,USA
+Su-57 Felon,2,Sukhoi,No,Russia,8348,USA
+F-16 Falcon,1,General Dynamics,No,USA,3298,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2674,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,7989,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,3052,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6516,Russia
+F-16 Falcon,1,General Dynamics,No,USA,5052,China
+F-35 Lightning,1,Lockheed,Yes,USA,6143,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,2064,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9569,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,4230,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9612,Russia
+F-16 Falcon,1,General Dynamics,No,USA,1847,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3576,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,1775,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4073,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,2426,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,1972,China
+F-35 Lightning,1,Lockheed,Yes,USA,7890,USA
+Su-57 Felon,2,Sukhoi,No,Russia,5502,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9696,China
+Su-57 Felon,2,Sukhoi,No,Russia,9115,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3268,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,9259,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,4933,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,1516,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5409,Russia
+F-16 Falcon,1,General Dynamics,No,USA,8502,USA
+F-35 Lightning,1,Lockheed,Yes,USA,8983,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,1804,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,8002,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,6152,China
+Su-57 Felon,2,Sukhoi,No,Russia,9962,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,3377,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,5560,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,5428,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,4441,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,7666,China
+F/A-18 Hornet,2,Boeing,Yes,USA,1922,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,1755,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,6739,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,2462,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,4636,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6804,USA
+F-16 Falcon,1,General Dynamics,No,USA,2363,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,2739,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,6509,China
+F-35 Lightning,1,Lockheed,Yes,USA,7714,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2549,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,8576,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5026,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,7816,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,8859,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,7588,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3231,China
+F-35 Lightning,1,Lockheed,Yes,USA,1853,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,1765,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,3514,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6632,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8238,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,9365,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,6898,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,7501,China
+F-16 Falcon,1,General Dynamics,No,USA,3013,USA
+F-16 Falcon,1,General Dynamics,No,USA,4248,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9231,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,5983,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,1655,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2046,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,8764,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,1727,China
+F-35 Lightning,1,Lockheed,Yes,USA,8012,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,4753,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9871,USA
+F-35 Lightning,1,Lockheed,Yes,USA,8052,China
+Su-57 Felon,2,Sukhoi,No,Russia,5459,USA
+F-16 Falcon,1,General Dynamics,No,USA,8097,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6027,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,1333,China
+F-35 Lightning,1,Lockheed,Yes,USA,5655,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6985,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2811,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,1661,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,8936,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,2284,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6402,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9947,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,3942,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,6268,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7197,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6306,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,8797,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,2132,USA
+Su-57 Felon,2,Sukhoi,No,Russia,5653,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2666,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,1205,China
+F-16 Falcon,1,General Dynamics,No,USA,8267,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3241,China
+F/A-18 Hornet,2,Boeing,Yes,USA,5636,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,6093,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,3292,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,9287,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,2698,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,7482,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2023,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4659,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5279,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5544,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,9641,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,3552,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5945,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,2517,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,1926,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,6085,USA
+F-16 Falcon,1,General Dynamics,No,USA,7235,USA
+F-16 Falcon,1,General Dynamics,No,USA,2947,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,4437,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,7481,China
+Su-57 Felon,2,Sukhoi,No,Russia,2755,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,7229,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,1385,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,9674,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,3334,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8103,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,4134,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9775,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4100,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,6763,USA
+F-16 Falcon,1,General Dynamics,No,USA,4726,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1470,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2815,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,1160,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9315,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,3021,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,1573,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,1727,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,7110,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1329,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6482,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4623,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,3498,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,5024,China
+F-35 Lightning,1,Lockheed,Yes,USA,7295,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,5336,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6845,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5653,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9701,USA
+Su-57 Felon,2,Sukhoi,No,Russia,7427,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,8625,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6845,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9992,USA
+F-16 Falcon,1,General Dynamics,No,USA,8170,Russia
+F-16 Falcon,1,General Dynamics,No,USA,5169,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4624,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,2738,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,8757,USA
+Su-57 Felon,2,Sukhoi,No,Russia,8233,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,7615,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,2454,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,3422,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2008,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,4597,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9031,China
+F/A-18 Hornet,2,Boeing,Yes,USA,3507,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,5859,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,4314,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8787,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,4384,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,8978,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,9260,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8267,China
+F-16 Falcon,1,General Dynamics,No,USA,1639,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4504,Russia
+F-16 Falcon,1,General Dynamics,No,USA,1207,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,4855,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,3859,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4353,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,7418,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,9084,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6486,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,3190,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,7279,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,7935,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9480,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,3374,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,3614,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4146,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6038,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,7875,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,8006,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6292,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,9539,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,1469,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,4146,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,2893,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5644,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,5914,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,4712,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3657,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,8588,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2034,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,5382,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,2871,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,1557,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,7390,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3695,China
+Su-57 Felon,2,Sukhoi,No,Russia,8104,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8442,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,7688,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6669,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6343,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,9347,USA
+F-16 Falcon,1,General Dynamics,No,USA,6439,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6764,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,1499,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,8974,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,4984,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6899,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,7238,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,8597,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,4207,China
+F-16 Falcon,1,General Dynamics,No,USA,6674,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,2828,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9324,China
+F-35 Lightning,1,Lockheed,Yes,USA,4386,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,5673,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,3528,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,4720,China
+F-35 Lightning,1,Lockheed,Yes,USA,8490,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,3783,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2477,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,4468,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9024,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,3764,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4315,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,3385,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,5538,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,3652,Ukraine
+B-2 Spirit,4,Northrup Grumman,No,USA,5129,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7582,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8865,China
+Su-57 Felon,2,Sukhoi,No,Russia,3397,China
+Su-57 Felon,2,Sukhoi,No,Russia,1884,China
+F-16 Falcon,1,General Dynamics,No,USA,8821,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,9538,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,7446,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,2652,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3685,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,5990,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,8399,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,6690,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2580,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5627,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,7445,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,4351,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,7806,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,9595,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,8374,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,9245,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,3560,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,1426,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,5797,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,9870,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6307,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,7742,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,8970,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,9515,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5822,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,2707,China
+Su-57 Felon,2,Sukhoi,No,Russia,2509,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,1626,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,3812,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8773,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,8993,China
+Su-57 Felon,2,Sukhoi,No,Russia,2774,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,6191,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,4516,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,8296,China
+F-35 Lightning,1,Lockheed,Yes,USA,7787,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,2618,USA
+F-16 Falcon,1,General Dynamics,No,USA,2602,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,4535,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2796,China
+F-16 Falcon,1,General Dynamics,No,USA,8229,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6452,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9749,Russia
+F-16 Falcon,1,General Dynamics,No,USA,9125,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,7724,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2849,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,4142,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,1870,USA
+F-16 Falcon,1,General Dynamics,No,USA,2337,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6986,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,5508,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,4255,Taiwan
+B-52 Stratofortress,8,Boeing,No,USA,8333,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3249,USA
+F-35 Lightning,1,Lockheed,Yes,USA,3492,China
+F-16 Falcon,1,General Dynamics,No,USA,9533,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,7742,China
+F-16 Falcon,1,General Dynamics,No,USA,6261,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,8928,USA
+F-16 Falcon,1,General Dynamics,No,USA,2028,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8277,China
+F-35 Lightning,1,Lockheed,Yes,USA,2958,USA
+F-16 Falcon,1,General Dynamics,No,USA,6149,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,7025,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5199,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,5661,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5768,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,5836,China
+Su-57 Felon,2,Sukhoi,No,Russia,9547,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,9698,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,6528,USA
+Su-57 Felon,2,Sukhoi,No,Russia,7740,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4691,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,1803,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,6874,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8159,USA
+F-16 Falcon,1,General Dynamics,No,USA,6639,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8254,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,8029,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3067,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6034,Russia
+F-16 Falcon,1,General Dynamics,No,USA,9508,Russia
+F-16 Falcon,1,General Dynamics,No,USA,7144,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,7736,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,1468,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4641,Russia
+F-16 Falcon,1,General Dynamics,No,USA,2732,USA
+Su-57 Felon,2,Sukhoi,No,Russia,1488,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,2777,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9564,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2951,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6054,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,3073,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,6261,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,1804,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,8264,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,4643,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6558,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,2529,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,8686,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,3066,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,4955,USA
+Su-57 Felon,2,Sukhoi,No,Russia,3957,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,6554,USA
+F-35 Lightning,1,Lockheed,Yes,USA,5208,China
+F-16 Falcon,1,General Dynamics,No,USA,7892,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,1754,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8247,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,9817,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,1367,USA
+F-16 Falcon,1,General Dynamics,No,USA,6426,USA
+F-16 Falcon,1,General Dynamics,No,USA,4726,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,7889,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4463,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6398,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6151,China
+F/A-18 Hornet,2,Boeing,Yes,USA,9083,USA
+F-35 Lightning,1,Lockheed,Yes,USA,8755,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,6041,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,3816,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,6325,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2518,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,3347,China
+Su-57 Felon,2,Sukhoi,No,Russia,5682,USA
+F-16 Falcon,1,General Dynamics,No,USA,9893,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,1784,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7350,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,4023,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3521,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,7648,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,9587,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,3783,Russia
+F-16 Falcon,1,General Dynamics,No,USA,2598,China
+Su-57 Felon,2,Sukhoi,No,Russia,8577,China
+F-16 Falcon,1,General Dynamics,No,USA,6777,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,4343,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,2331,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,7407,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,8814,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4952,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,9665,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3481,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,6044,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1261,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,3390,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,1156,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,4359,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,4041,USA
+F-35 Lightning,1,Lockheed,Yes,USA,5817,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4839,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9875,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4778,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6079,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9723,USA
+F-16 Falcon,1,General Dynamics,No,USA,5865,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4294,USA
+F-16 Falcon,1,General Dynamics,No,USA,5359,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,8026,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,8878,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,2254,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3971,USA
+F-35 Lightning,1,Lockheed,Yes,USA,2932,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3239,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,2557,USA
+F-16 Falcon,1,General Dynamics,No,USA,6471,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,2643,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9175,USA
+Su-57 Felon,2,Sukhoi,No,Russia,7549,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5030,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,5641,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,8979,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,9577,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6758,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,9332,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,1742,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,4315,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3197,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,9352,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,1936,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,8028,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8429,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8688,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6706,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,1604,Russia
+F-16 Falcon,1,General Dynamics,No,USA,3838,China
+F-16 Falcon,1,General Dynamics,No,USA,4484,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7136,USA
+F-35 Lightning,1,Lockheed,Yes,USA,1443,USA
+Su-57 Felon,2,Sukhoi,No,Russia,1494,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2174,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,9675,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,3656,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,7149,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,4855,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,1655,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,2670,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6452,USA
+F-35 Lightning,1,Lockheed,Yes,USA,1157,USA
+F-35 Lightning,1,Lockheed,Yes,USA,1429,China
+F-16 Falcon,1,General Dynamics,No,USA,7328,China
+Su-57 Felon,2,Sukhoi,No,Russia,2049,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,2946,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9886,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,1679,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,8996,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8398,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,3811,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,7068,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2141,China
+F-35 Lightning,1,Lockheed,Yes,USA,2223,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6102,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4122,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,5620,China
+F-16 Falcon,1,General Dynamics,No,USA,1268,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,7586,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,5343,USA
+F-35 Lightning,1,Lockheed,Yes,USA,3900,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,9857,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,2609,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2699,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,8222,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5830,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,2448,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,4761,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,5028,USA
+F-16 Falcon,1,General Dynamics,No,USA,2811,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8922,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,3848,China
+F-16 Falcon,1,General Dynamics,No,USA,4018,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,2963,USA
+Su-57 Felon,2,Sukhoi,No,Russia,4661,China
+F-35 Lightning,1,Lockheed,Yes,USA,6886,USA
+F-35 Lightning,1,Lockheed,Yes,USA,4187,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,3984,Russia
+F-16 Falcon,1,General Dynamics,No,USA,8838,China
+F-35 Lightning,1,Lockheed,Yes,USA,9942,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,3858,Russia
+F-16 Falcon,1,General Dynamics,No,USA,2169,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,9749,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,5415,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,5032,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,6699,China
+Su-57 Felon,2,Sukhoi,No,Russia,4991,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9191,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9830,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,1484,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2369,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,9608,China
+F-16 Falcon,1,General Dynamics,No,USA,2468,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6654,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6976,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,4832,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,7245,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6136,China
+F-35 Lightning,1,Lockheed,Yes,USA,5495,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2277,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,3353,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,3537,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4546,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,3061,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,4073,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,7908,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6800,Russia
+F-16 Falcon,1,General Dynamics,No,USA,2201,China
+F-16 Falcon,1,General Dynamics,No,USA,9924,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,3056,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6223,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,6618,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7907,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,6316,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2465,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3385,China
+F-35 Lightning,1,Lockheed,Yes,USA,6655,China
+Su-57 Felon,2,Sukhoi,No,Russia,7176,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2240,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,8098,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,5403,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9409,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,3962,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,5560,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,4629,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,4777,USA
+F-16 Falcon,1,General Dynamics,No,USA,7031,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,7174,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6011,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,3425,USA
+Su-57 Felon,2,Sukhoi,No,Russia,2241,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,7978,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,8080,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,5049,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,9171,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,4231,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,6480,China
+Su-57 Felon,2,Sukhoi,No,Russia,1693,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6153,China
+F-16 Falcon,1,General Dynamics,No,USA,3285,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,7690,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8847,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6899,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,7155,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,2962,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6388,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,2178,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,7010,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,7487,China
+Su-57 Felon,2,Sukhoi,No,Russia,2562,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3182,Russia
+F-16 Falcon,1,General Dynamics,No,USA,9981,USA
+F-16 Falcon,1,General Dynamics,No,USA,2246,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,5247,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,8599,USA
+Su-57 Felon,2,Sukhoi,No,Russia,2215,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,4369,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9781,China
+Su-57 Felon,2,Sukhoi,No,Russia,4926,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9991,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,7677,China
+F-35 Lightning,1,Lockheed,Yes,USA,8034,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6974,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,4030,Russia
+F-16 Falcon,1,General Dynamics,No,USA,7496,Russia
+F-16 Falcon,1,General Dynamics,No,USA,7911,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,7351,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,5050,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,1299,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5140,China
+F-35 Lightning,1,Lockheed,Yes,USA,8768,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6546,China
+F-16 Falcon,1,General Dynamics,No,USA,1691,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,7839,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,8869,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,2649,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6652,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7035,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3422,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1326,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2734,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,6862,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1866,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,8543,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,9781,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5495,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,5926,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,3964,USA
+F-35 Lightning,1,Lockheed,Yes,USA,4397,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6551,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,6890,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,3065,USA
+F-16 Falcon,1,General Dynamics,No,USA,8950,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2192,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6043,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,7495,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,1941,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4086,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,9718,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,3514,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,3128,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,4283,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6002,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1923,China
+F-16 Falcon,1,General Dynamics,No,USA,7528,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,5874,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,6948,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2557,China
+F/A-18 Hornet,2,Boeing,Yes,USA,9392,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,8297,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2072,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1231,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3941,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2632,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8125,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,7628,USA
+F-16 Falcon,1,General Dynamics,No,USA,3062,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2330,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,4593,USA
+F-35 Lightning,1,Lockheed,Yes,USA,2612,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4887,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,3735,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,3976,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2078,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3296,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,4698,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,5704,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7579,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2614,USA
+F-35 Lightning,1,Lockheed,Yes,USA,2108,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,6555,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,1742,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,3826,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,9758,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9810,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9748,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6629,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7863,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,3432,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,8447,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,9287,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,1909,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7793,China
+F-16 Falcon,1,General Dynamics,No,USA,4532,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,7887,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,6028,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9793,China
+F-35 Lightning,1,Lockheed,Yes,USA,1879,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6375,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,9181,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,2019,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2493,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,7579,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1723,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9926,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,1869,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6019,China
+F-35 Lightning,1,Lockheed,Yes,USA,8142,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,2873,USA
+B-52 Stratofortress,8,Boeing,No,USA,4142,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6177,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,2761,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,9159,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,7609,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6916,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,5900,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2263,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3511,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,9064,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,5322,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3282,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,7361,China
+F-16 Falcon,1,General Dynamics,No,USA,6444,USA
+F-35 Lightning,1,Lockheed,Yes,USA,5837,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,3879,USA
+F-16 Falcon,1,General Dynamics,No,USA,8193,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,9573,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,6501,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,4662,USA
+F-35 Lightning,1,Lockheed,Yes,USA,3125,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8551,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5713,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,7611,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,5843,USA
+F-16 Falcon,1,General Dynamics,No,USA,4512,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8761,China
+F-16 Falcon,1,General Dynamics,No,USA,9319,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,8394,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6406,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,9811,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6764,China
+F-35 Lightning,1,Lockheed,Yes,USA,2874,USA
+Su-57 Felon,2,Sukhoi,No,Russia,8076,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,6659,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6970,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,2165,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,5606,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,7515,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,6130,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,5507,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,3458,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,5784,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6096,USA
+F-35 Lightning,1,Lockheed,Yes,USA,1150,China
+Su-57 Felon,2,Sukhoi,No,Russia,9581,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,3807,USA
+F-35 Lightning,1,Lockheed,Yes,USA,4784,China
+F-16 Falcon,1,General Dynamics,No,USA,6892,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,1935,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6066,China
+F-35 Lightning,1,Lockheed,Yes,USA,3311,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4499,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,6823,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2050,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,9874,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,4710,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,1501,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8364,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9145,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3870,USA
+Su-57 Felon,2,Sukhoi,No,Russia,6822,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,8725,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,6976,USA
+F-35 Lightning,1,Lockheed,Yes,USA,7746,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,8994,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,7610,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,9773,China
+F-16 Falcon,1,General Dynamics,No,USA,3259,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9873,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,3594,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,6638,China
+F-16 Falcon,1,General Dynamics,No,USA,8080,USA
+F-16 Falcon,1,General Dynamics,No,USA,1292,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2363,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,9028,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,5799,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,7281,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,1921,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4972,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8838,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,4286,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,9529,USA
+F-35 Lightning,1,Lockheed,Yes,USA,8964,USA
+F-16 Falcon,1,General Dynamics,No,USA,3510,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5317,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,4331,USA
+Su-57 Felon,2,Sukhoi,No,Russia,3955,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,3545,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,8820,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,2564,USA
+F-16 Falcon,1,General Dynamics,No,USA,4110,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6381,China
+F-35 Lightning,1,Lockheed,Yes,USA,9568,USA
+F-35 Lightning,1,Lockheed,Yes,USA,5306,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,7501,China
+Su-57 Felon,2,Sukhoi,No,Russia,8377,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,2357,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5441,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,7863,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,7585,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,7992,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,4750,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,8225,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,1810,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,3168,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,6974,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6249,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5827,China
+F-16 Falcon,1,General Dynamics,No,USA,2431,Russia
+F-16 Falcon,1,General Dynamics,No,USA,8806,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,1305,Denmark
+B-52 Stratofortress,8,Boeing,No,USA,1709,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6677,China
+F-16 Falcon,1,General Dynamics,No,USA,1318,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,5254,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9832,Russia
+F-16 Falcon,1,General Dynamics,No,USA,1125,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,9082,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5323,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,9914,China
+F-16 Falcon,1,General Dynamics,No,USA,7238,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,4766,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1439,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,6959,China
+F-16 Falcon,1,General Dynamics,No,USA,3660,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,4951,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2257,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1764,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,3421,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,9150,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4480,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,2436,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,1526,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,2908,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,9003,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,7743,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,4315,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,8822,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,4584,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,1410,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,3133,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,9780,Russia
+F-16 Falcon,1,General Dynamics,No,USA,1654,Russia
+F-16 Falcon,1,General Dynamics,No,USA,6436,USA
+Su-57 Felon,2,Sukhoi,No,Russia,9309,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,7281,Taiwan
+B-2 Spirit,4,Northrup Grumman,No,USA,9042,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,4083,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,4161,China
+F-35 Lightning,1,Lockheed,Yes,USA,8598,China
+F-35 Lightning,1,Lockheed,Yes,USA,8049,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,7860,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,1298,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6104,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,7064,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,1921,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,4653,USA
+F-35 Lightning,1,Lockheed,Yes,USA,9828,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3032,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6497,China
+F-35 Lightning,1,Lockheed,Yes,USA,2694,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,5120,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,1422,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,1131,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,1628,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,2726,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,4941,China
+F-35 Lightning,1,Lockheed,Yes,USA,1728,USA
+F-16 Falcon,1,General Dynamics,No,USA,2328,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,8979,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,3627,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,9811,Greenland
+F/A-18 Hornet,2,Boeing,Yes,USA,7043,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,8957,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,6799,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,6491,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,4210,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,9220,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,4381,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,1978,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,7750,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,5925,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,8532,Ukraine
+F/A-18 Hornet,2,Boeing,Yes,USA,1754,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,1543,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,4144,Russia
+F-16 Falcon,1,General Dynamics,No,USA,2105,China
+Su-57 Felon,2,Sukhoi,No,Russia,4016,China
+F-35 Lightning,1,Lockheed,Yes,USA,5346,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,6034,Russia
+F-16 Falcon,1,General Dynamics,No,USA,5590,Taiwan
+F-16 Falcon,1,General Dynamics,No,USA,8564,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,7696,Russia
+F-16 Falcon,1,General Dynamics,No,USA,1945,China
+F-16 Falcon,1,General Dynamics,No,USA,3712,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,8076,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,6685,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,5328,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8001,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8308,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,6240,USA
+F-16 Falcon,1,General Dynamics,No,USA,6426,China
+F/A-18 Hornet,2,Boeing,Yes,USA,4860,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,5487,China
+F-16 Falcon,1,General Dynamics,No,USA,3716,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,7846,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6298,Russia
+F-16 Falcon,1,General Dynamics,No,USA,4707,China
+Su-57 Felon,2,Sukhoi,No,Russia,3516,China
+F-16 Falcon,1,General Dynamics,No,USA,9087,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,8504,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,7283,China
+F-16 Falcon,1,General Dynamics,No,USA,7961,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,6208,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8124,China
+Su-57 Felon,2,Sukhoi,No,Russia,3527,Denmark
+MiG-15 Fagot,1,Mikoyan,No,Russia,3961,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,9359,China
+F/A-18 Hornet,2,Boeing,Yes,USA,4369,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1857,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9973,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,4281,Russia
+F-16 Falcon,1,General Dynamics,No,USA,8366,China
+Su-57 Felon,2,Sukhoi,No,Russia,3376,China
+MiG-15 Fagot,1,Mikoyan,No,Russia,3110,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4657,USA
+Su-57 Felon,2,Sukhoi,No,Russia,3178,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,2876,Denmark
+F/A-18 Hornet,2,Boeing,Yes,USA,6032,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9999,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,8373,Taiwan
+MiG-15 Fagot,1,Mikoyan,No,Russia,1654,China
+Su-57 Felon,2,Sukhoi,No,Russia,6777,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,4965,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,2845,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,8426,China
+Su-57 Felon,2,Sukhoi,No,Russia,5657,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,8292,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,4275,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5534,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,8650,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,6700,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,1466,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,1786,Greenland
+MiG-15 Fagot,1,Mikoyan,No,Russia,8770,China
+Su-57 Felon,2,Sukhoi,No,Russia,8801,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5226,Greenland
+Su-57 Felon,2,Sukhoi,No,Russia,7982,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,9846,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,3092,China
+F-16 Falcon,1,General Dynamics,No,USA,6351,Russia
+MiG-15 Fagot,1,Mikoyan,No,Russia,8306,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,9325,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,7874,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,9603,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,6902,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,2395,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,4985,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,2466,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,6056,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,5347,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,5653,China
+F-35 Lightning,1,Lockheed,Yes,USA,7936,Taiwan
+F-35 Lightning,1,Lockheed,Yes,USA,9136,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6310,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1470,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,9853,USA
+Su-57 Felon,2,Sukhoi,No,Russia,1491,Ukraine
+Su-57 Felon,2,Sukhoi,No,Russia,6402,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,9768,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,7176,Taiwan
+F/A-18 Hornet,2,Boeing,Yes,USA,1222,USA
+Su-57 Felon,2,Sukhoi,No,Russia,2306,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,4806,Russia
+Su-57 Felon,2,Sukhoi,No,Russia,9623,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,3068,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,2283,Greenland
+F-16 Falcon,1,General Dynamics,No,USA,6166,Greenland
+F-35 Lightning,1,Lockheed,Yes,USA,1907,USA
+F-16 Falcon,1,General Dynamics,No,USA,6021,China
+F-35 Lightning,1,Lockheed,Yes,USA,3311,USA
+F-35 Lightning,1,Lockheed,Yes,USA,6900,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,2851,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,5770,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4669,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,5851,Taiwan
+Su-57 Felon,2,Sukhoi,No,Russia,2546,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,4496,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,4104,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,3282,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,6878,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,7549,Denmark
+F-16 Falcon,1,General Dynamics,No,USA,5050,China
+F-16 Falcon,1,General Dynamics,No,USA,8401,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,5569,USA
+MiG-15 Fagot,1,Mikoyan,No,Russia,5497,USA
+Su-57 Felon,2,Sukhoi,No,Russia,7189,Ukraine
+MiG-15 Fagot,1,Mikoyan,No,Russia,6726,Russia
+F-35 Lightning,1,Lockheed,Yes,USA,3799,Russia
+F/A-18 Hornet,2,Boeing,Yes,USA,4784,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,4417,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,3483,China
+F-35 Lightning,1,Lockheed,Yes,USA,2208,Ukraine
+F-16 Falcon,1,General Dynamics,No,USA,6857,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,1678,Ukraine
+F-35 Lightning,1,Lockheed,Yes,USA,6016,Denmark
+F-35 Lightning,1,Lockheed,Yes,USA,3237,Denmark
+Su-57 Felon,2,Sukhoi,No,Russia,5055,USA
+F/A-18 Hornet,2,Boeing,Yes,USA,5832,Russia
