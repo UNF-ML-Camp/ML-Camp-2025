@@ -34,6 +34,7 @@ def train(
     accuracies_full = []
     val_losses_full = []
     val_accuracies_full = []
+    training_time = AverageMeter()
     
     # Trænings loop over epochs
     epoch_loop = tqdm(range(model.hyperparameters.epochs))
@@ -59,7 +60,7 @@ def train(
             loss = model.criterion(y_hat_prob, y)
             losses.append(loss.item())
             accuracy = torch.sum(y_hat == y) / len(y)
-            accuracies.append(accuracy)
+            accuracies.append(accuracy.item())
 
             #val_X, val_y = next(iter(val_loader))
             #val_y_hat = model(val_X)
@@ -83,7 +84,7 @@ def train(
                 val_loss = model.criterion(y_hat_prob, y)
                 val_losses.append(val_loss.item())
                 val_accuracy = torch.sum(torch.argmax(y_hat_prob, dim=1) == y) / len(y)
-                val_accuracies.append(val_accuracy)
+                val_accuracies.append(val_accuracy.item())
         end_time = perf_counter()
 
         # Gem værdier og print status
@@ -93,6 +94,7 @@ def train(
         val_accuracies_full.append(val_accuracies.avg)
         #(f"[{epoch+1} / {model.hyperparameters.epochs} {end_time-start_time:.2f}s] Training - Loss: {sum(losses) / len(losses):3f} Accuracy: {sum(accuracies) / len(accuracies):3f} | Validation - Loss: {sum(val_losses) / len(val_losses):3f} Accuracy: {sum(val_accuracies) / len(val_accuracies):3f}")
         epoch_loop.set_postfix({"Train_loss": f"{losses.avg:.3f}", "Val_loss": f"{val_losses.avg:.3f}", "Train_acc": f"{accuracies.avg:.3f}", "Val_acc": f"{val_accuracies.avg:.3f}", "Time_Taken": f"{end_time-start_time:.3f}s"})
+        training_time.append(end_time-start_time)
 
         # Model er trænet, gem vægtene
         if not os.path.exists("saved_models/"):
@@ -114,6 +116,7 @@ def train(
             #torch.save(model.state_dict(), f"saved_models/{model.name}_best.pt")
             scripted_model.save(f'saved_models/{model.name}_best.pth')
             print(f"Gemt modellen med bedste accuracy {best_acc} i 'saved_models/{model.name}_best.pt'")
+    print(f"Træning er færdigt. Træning tog {sum(training_time.values)}s og average epoch tid var {training_time.avg}s")
     return {"Train_loss":losses_full, "Val_loss": val_losses_full, "Train_acc": accuracies_full, "Val_acc": val_accuracies_full}
     
 def plot_training_logs(train_logs):
