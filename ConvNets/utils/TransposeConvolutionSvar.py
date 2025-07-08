@@ -1,9 +1,11 @@
 import torch
 from random import randint
 
-# Denne funktion bruger pytorch til få det rigtigt resultat for convolution operationen
-def convolveList(x, w, s, p, d, g):
-    return torch.nn.functional.conv2d(torch.tensor(x).unsqueeze(0), torch.tensor(w)[None,None,:,:],
+# Denne funktion bruger pytorch til få den rigtig resultat for transposed convolution operationen
+def transConvolveList(x, w, s, p, d, g):
+    print(torch.nn.functional.conv_transpose2d(torch.tensor(x).unsqueeze(0), torch.tensor(w)[None,None,:,:],
+                                      stride=s, padding=p, dilation=d, groups=g)[0,:,:])
+    return torch.nn.functional.conv_transpose2d(torch.tensor(x).unsqueeze(0), torch.tensor(w)[None,None,:,:],
                                       stride=s, padding=p, dilation=d, groups=g)[0,:,:].tolist()
 
 # Denne funktion tjekker om elementerne i to lister er de samme
@@ -28,7 +30,7 @@ def opgave1(answer):
            [1, 3, 5]]
     weight = [[0, 1],
              [1, 0]]
-    expectedAnswer = convolveList(img, weight, 1, 0, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 1, 0, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave2(answer):
@@ -37,7 +39,7 @@ def opgave2(answer):
            [1, 5, 2]]
     weight = [[2, 3],
               [1, 2]]
-    expectedAnswer = convolveList(img, weight, 1, 0, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 1, 0, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave3(answer):
@@ -48,7 +50,7 @@ def opgave3(answer):
     weight = [[ 0, -1,  0],
               [-1,  4, -1],
               [ 0, -1,  0]]
-    expectedAnswer = convolveList(img, weight, 1, 0, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 1, 0, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave4(answer):
@@ -58,7 +60,7 @@ def opgave4(answer):
     weight = [[ 0, -1,  0],
               [-1,  4, -1],
               [ 0, -1,  0]]
-    expectedAnswer = convolveList(img, weight, 1, 1, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 1, 1, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave5(answer):
@@ -66,7 +68,7 @@ def opgave5(answer):
            [3, 4]]
     weight = [[1, 1],
               [1, 1]]
-    expectedAnswer = convolveList(img, weight, 1, 1, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 1, 1, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave6(answer):
@@ -76,7 +78,7 @@ def opgave6(answer):
            [0, 2, 3, 4]]
     weight = [[-1, 1],
               [-1, 1]]
-    expectedAnswer = convolveList(img, weight, 2, 0, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 2, 0, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave7(answer):
@@ -86,7 +88,7 @@ def opgave7(answer):
            [0, 2, 3, 4]]
     weight = [[-2, -2],
               [ 2,  2]]
-    expectedAnswer = convolveList(img, weight, 2, 0, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 2, 0, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave8(answer):
@@ -96,7 +98,7 @@ def opgave8(answer):
     weight = [[1, 0, -1],
               [1, 0, -1],
               [1, 0, -1]]
-    expectedAnswer = convolveList(img, weight, 2, 2, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 2, 2, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
 def opgave9(answer):
@@ -105,10 +107,10 @@ def opgave9(answer):
     weight = [[1, 0, -1],
               [1, 0, -1],
               [1, 0, -1]]
-    expectedAnswer = convolveList(img, weight, 2, 2, 1, 1)
+    expectedAnswer = transConvolveList(img, weight, 2, 2, 1, 1)
     print(checkAnswer(answer, expectedAnswer))
 
-# Denne funktion laver en unit test for convolution ved at bruge tilfældige argumenter
+# Denne funktion laver en unit test for transposed convolution ved at bruge tilfældige argumenter
 # Det her er ikke en komplet unit test, da vi tjekker ikke edge cases
 # En edge case kan være en kerne med 0 dimensioner som har stor sandsynlighed for at lave fejl
 def createUnitTest(func, stride=False, padding=False):
@@ -117,13 +119,13 @@ def createUnitTest(func, stride=False, padding=False):
     imgW = randint(3,10)
     kernH = randint(1, imgH)
     kernW = randint(1, imgW)
-    img = torch.randint(0,100, (imgH, imgW))
-    kerne = torch.randint(0,100, (kernH, kernW))
+    img = torch.randint(0,10, (imgH, imgW))
+    kerne = torch.randint(0,10, (kernH, kernW))
     stride = randint(1,5) if stride else 1
-    padding = randint(0,10) if padding else 0
+    padding = randint(0,min(kernH, kernW)-1) if padding else 0
     # Compute convolution igennem vores funktion og den rigtigt pytorch funktion
     test = func(img.tolist(), kerne.tolist(), stride, padding)
-    correct = torch.nn.functional.conv2d(img.unsqueeze(0), kerne[None,None,:,:], stride=stride, padding=padding)[0,:,:]
+    correct = torch.nn.functional.conv_transpose2d(img.unsqueeze(0), kerne[None,None,:,:], stride=stride, padding=padding)[0,:,:]
     return torch.allclose(correct, torch.tensor(test))
 
 # Denne funktion tester vores convolution funktion ved at køre en del unit tests
