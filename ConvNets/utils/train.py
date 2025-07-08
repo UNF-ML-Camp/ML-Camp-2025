@@ -92,7 +92,7 @@ def train(
         val_losses_full.append(val_losses.avg)
         val_accuracies_full.append(val_accuracies.avg)
         #(f"[{epoch+1} / {model.hyperparameters.epochs} {end_time-start_time:.2f}s] Training - Loss: {sum(losses) / len(losses):3f} Accuracy: {sum(accuracies) / len(accuracies):3f} | Validation - Loss: {sum(val_losses) / len(val_losses):3f} Accuracy: {sum(val_accuracies) / len(val_accuracies):3f}")
-        epoch_loop.set_postfix({"Train_loss": f"{losses_full:.3f}", "Val_loss": f"{val_losses_full:.3f}", "Train_acc": f"{accuracies_full:.3f}", "Val_acc": f"{val_accuracies_full:.3f}", "Time_Taken": f"{end_time-start_time:.3f}"})
+        epoch_loop.set_postfix({"Train_loss": f"{losses.avg:.3f}", "Val_loss": f"{val_losses.avg:.3f}", "Train_acc": f"{accuracies.avg:.3f}", "Val_acc": f"{val_accuracies.avg:.3f}", "Time_Taken": f"{end_time-start_time:.3f}s"})
 
         # Model er trænet, gem vægtene
         if not os.path.exists("saved_models/"):
