@@ -177,6 +177,3 @@ cython_debug/
 konkurrence/test_model.pt
 konkurrence/test.png
 konkurrence/results/
-
-# Gemmes væk indtil relevant
-konkurrence/.
